@@ -6,8 +6,70 @@
       "password": "demo",
       "id": "1",
       "isAuthorized": false
+    },
+    {
+      "name": "11",
+      "email": "11@mail.ru",
+      "password": "11",
+      "id": "50fo023kkj387dt2",
+      "isAuthorized": false
+    },
+    {
+      "name": "Z",
+      "email": "Z@mail.ru",
+      "password": "1",
+      "id": "50fo01m0kja7zro6",
+      "isAuthorized": false
+    },
+    {
+      "name": "q",
+      "email": "q@mail.ru",
+      "password": "1",
+      "id": "50fo01g0kja8eba9",
+      "isAuthorized": false
+    },
+    {
+      "name": "w",
+      "email": "w@mail.ru",
+      "password": "1",
+      "id": "50fo06okkja93u58",
+      "isAuthorized": false
+    },
+    {
+      "name": "e",
+      "email": "e@mail.ru",
+      "password": "1",
+      "id": "50fo0gfgkja9vlqg",
+      "isAuthorized": false
+    },
+    {
+      "name": "r",
+      "email": "r@mail.ru",
+      "password": "1",
+      "id": "50fo0fgkkjaaxomm",
+      "isAuthorized": false
+    },
+    {
+      "name": "t",
+      "email": "t@mail.ru",
+      "password": "1",
+      "id": "50fo0eh8kjb7umw8",
+      "isAuthorized": false
+    },
+    {
+      "name": "u",
+      "email": "u@mai.ru",
+      "password": "1",
+      "id": "50fo0c0wkjbcif9t",
+      "isAuthorized": false
+    },
+    {
+      "name": "o",
+      "email": "o@mail.ru",
+      "password": "1",
+      "id": "50fo033wkjbdyw6q",
+      "isAuthorized": true
     }
-    
   ],
   "accounts": [
     {
@@ -24,8 +86,137 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Сбер",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0dbwkj387t27"
+    },
+    {
+      "name": "x",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0fcckja8egen"
+    },
+    {
+      "name": "q",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo016skja8ep46"
+    },
+    {
+      "name": "123",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0864kja8pe0a"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0ac8kja8strb"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo02bckja8wado"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0f18kja8wxky"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo01ookja8zf7f"
+    },
+    {
+      "name": "2",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0810kja93a7k"
+    },
+    {
+      "name": "cxtn ",
+      "user_id": "50fo023kkj387dt2",
+      "id": "50fo0c0kkja93kul"
+    },
+    {
+      "name": "Сбер",
+      "user_id": "50fo01m0kja7zro6",
+      "id": "50fo0d14kja9412v"
+    },
+    {
+      "name": "Тинькоф",
+      "user_id": "50fo01m0kja7zro6",
+      "id": "50fo0b18kja944ia"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo01m0kja7zro6",
+      "id": "50fo01iokja9rt88"
+    },
+    {
+      "name": "Сбербанк",
+      "user_id": "50fo01g0kja8eba9",
+      "id": "50fo0cxgkja9vs56"
+    },
+    {
+      "name": "Тиньков",
+      "user_id": "50fo01g0kja8eba9",
+      "id": "50fo058wkja9vw3d"
+    },
+    {
+      "name": "1",
+      "user_id": "50fo06okkja93u58",
+      "id": "50fo02k8kja9zi8s"
+    },
+    {
+      "name": "2",
+      "user_id": "50fo06okkja93u58",
+      "id": "50fo01xwkja9zk8e"
+    },
+    {
+      "name": "C,th",
+      "user_id": "50fo0gfgkja9vlqg",
+      "id": "50fo0bdokjaanj8i"
+    },
+    {
+      "name": "Сбербанк",
+      "user_id": "50fo0gfgkja9vlqg",
+      "id": "50fo0avkkjag9e22"
+    },
+    {
+      "name": "Тиньков",
+      "user_id": "50fo0gfgkja9vlqg",
+      "id": "50fo0euskjb7awgb"
+    },
+    {
+      "name": "Сбурбанк",
+      "user_id": "50fo0eh8kjb7umw8",
+      "id": "50fo0e78kjb7uzgn"
+    },
+    {
+      "name": "11",
+      "user_id": "50fo0eh8kjb7umw8",
+      "id": "50fo063skjbaag4n"
+    },
+    {
+      "name": "Сбур",
+      "user_id": "50fo0c0wkjbcif9t",
+      "id": "50fo03uskjbcimv4"
+    },
+    {
+      "name": "РАйф",
+      "user_id": "50fo0c0wkjbcif9t",
+      "id": "50fo0gvgkjbcirad"
+    },
+    {
+      "name": "Тинькоф",
+      "user_id": "50fo033wkjbdyw6q",
+      "id": "50fo0e2okjbdzf60"
+    },
+    {
+      "name": "СЬК",
+      "user_id": "50fo033wkjbdyw6q",
+      "id": "50fo0d9wkjbdzj7k"
     }
-   
   ],
   "transactions": [
     {
@@ -162,6 +353,174 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "50fo02lckjb4nmsf",
+      "type": "INCOME",
+      "name": "1",
+      "sum": 1,
+      "account_id": "50fo0bdokjaanj8i",
+      "created_at": "2020-12-30T07:58:15.326Z"
+    },
+    {
+      "id": "50fo0h74kjb4xy4c",
+      "type": "INCOME",
+      "name": "gh",
+      "sum": 200,
+      "account_id": "50fo0avkkjag9e22",
+      "created_at": "2020-12-30T08:06:16.571Z"
+    },
+    {
+      "id": "50fo01xwkjb7b920",
+      "type": "INCOME",
+      "name": "Тратата",
+      "sum": 1000,
+      "account_id": "50fo0euskjb7awgb",
+      "created_at": "2020-12-30T09:12:36.503Z"
+    },
+    {
+      "id": "50fo0dggkjb7bory",
+      "type": "EXPENSE",
+      "name": "прольдлчыд",
+      "sum": 190,
+      "account_id": "50fo0euskjb7awgb",
+      "created_at": "2020-12-30T09:12:56.877Z"
+    },
+    {
+      "id": "50fo08g8kjb7bu98",
+      "type": "EXPENSE",
+      "name": "ычы",
+      "sum": 23,
+      "account_id": "50fo0bdokjaanj8i",
+      "created_at": "2020-12-30T09:13:03.979Z"
+    },
+    {
+      "id": "50fo0gygkjb7vg0b",
+      "type": "INCOME",
+      "name": "Зарплата",
+      "sum": 30000,
+      "account_id": "50fo0e78kjb7uzgn",
+      "created_at": "2020-12-30T09:28:18.634Z"
+    },
+    {
+      "id": "50fo02hckjb7vnvx",
+      "type": "INCOME",
+      "name": "Взятка",
+      "sum": 5000,
+      "account_id": "50fo0gw8kjb7v6gc",
+      "created_at": "2020-12-30T09:28:28.844Z"
+    },
+    {
+      "id": "50fo0ehgkjbb3dl4",
+      "type": "INCOME",
+      "name": "1",
+      "sum": 1,
+      "account_id": "50fo0e78kjb7uzgn",
+      "created_at": "2020-12-30T10:58:27.591Z"
+    },
+    {
+      "id": "50fo0a5skjbb3nht",
+      "type": "INCOME",
+      "name": "11",
+      "sum": 111,
+      "account_id": "50fo063skjbaag4n",
+      "created_at": "2020-12-30T10:58:40.432Z"
+    },
+    {
+      "id": "50fo070gkjbbx1sc",
+      "type": "EXPENSE",
+      "name": "1",
+      "sum": 1,
+      "account_id": "50fo0e78kjb7uzgn",
+      "created_at": "2020-12-30T11:21:31.979Z"
+    },
+    {
+      "id": "50fo0hlwkjbcgjge",
+      "type": "INCOME",
+      "name": "111",
+      "sum": 222,
+      "account_id": "50fo0e78kjb7uzgn",
+      "created_at": "2020-12-30T11:36:41.341Z"
+    },
+    {
+      "id": "50fo08s0kjbcj2s0",
+      "type": "INCOME",
+      "name": "ЗП",
+      "sum": 30000,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T11:38:39.695Z"
+    },
+    {
+      "id": "50fo0d0gkjbcjc5u",
+      "type": "INCOME",
+      "name": "взятка",
+      "sum": 100000,
+      "account_id": "50fo0gvgkjbcirad",
+      "created_at": "2020-12-30T11:38:51.857Z"
+    },
+    {
+      "id": "50fo0hbkkjbcjjpj",
+      "type": "INCOME",
+      "name": "долги",
+      "sum": 1200,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T11:39:01.638Z"
+    },
+    {
+      "id": "50fo0d4skjbcjps0",
+      "type": "EXPENSE",
+      "name": "вино",
+      "sum": 150,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T11:39:09.503Z"
+    },
+    {
+      "id": "50fo0hw4kjbcjzjw",
+      "type": "EXPENSE",
+      "name": "гвозди",
+      "sum": 3000,
+      "account_id": "50fo0gvgkjbcirad",
+      "created_at": "2020-12-30T11:39:22.171Z"
+    },
+    {
+      "id": "50fo0bockjbdmjfb",
+      "type": "INCOME",
+      "name": "11",
+      "sum": 11,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T12:09:20.854Z"
+    },
+    {
+      "id": "50fo07hckjbdnkj7",
+      "type": "INCOME",
+      "name": "qqq",
+      "sum": 111,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T12:10:08.946Z"
+    },
+    {
+      "id": "50fo0ihskjbdnrh8",
+      "type": "EXPENSE",
+      "name": "111",
+      "sum": 1111,
+      "account_id": "50fo03uskjbcimv4",
+      "created_at": "2020-12-30T12:10:17.947Z"
+    },
+    {
+      "id": "50fo0iyckjbdzy7n",
+      "type": "EXPENSE",
+      "name": "45",
+      "sum": 45,
+      "account_id": "50fo0ikokjbdzbng",
+      "created_at": "2020-12-30T12:19:46.546Z"
+    },
+    {
+      "id": "50fo0ibgkjbe0kuq",
+      "type": "INCOME",
+      "name": "cdcd",
+      "sum": 520,
+      "account_id": "50fo0e2okjbdzf60",
+      "created_at": "2020-12-30T12:20:15.889Z"
     }
   ]
 }

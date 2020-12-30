@@ -4,7 +4,6 @@
  * Имеет свойство URL, равное '/user'.
  * */
 
-
 class User {
   static URL = '/user';
   /**
@@ -31,7 +30,9 @@ class User {
    * */
 
   static current() {
-    return JSON.parse(localStorage.getItem('user'));
+    if (localStorage.getItem('user') !== 'undefined') {
+      return JSON.parse(localStorage.getItem('user'));
+    }
   }
 
   /**
@@ -100,7 +101,6 @@ class User {
         }
         callback(err, response);
       }
-
     );
   }
 

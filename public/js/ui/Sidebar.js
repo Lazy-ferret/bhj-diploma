@@ -24,7 +24,6 @@ class Sidebar {
       event.preventDefault();
       sidebar.classList.toggle('sidebar-open');
       sidebar.classList.toggle('sidebar-collapse');
-
     })
   }
 
@@ -55,6 +54,8 @@ class Sidebar {
       User.logout({}, (err, response) => {
         if (response) {
           App.setState('init');
+        } else {
+          console.log(err);
         }
       })
     })

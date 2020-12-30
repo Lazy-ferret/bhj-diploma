@@ -10,16 +10,18 @@ class Entity {
    * (в зависимости от того, что наследуется от Entity)
    * */
   static list(data, callback = f => f) {
-    return createRequest({
-      data: data,
-      method: 'GET',
-      responseType: 'json',
-      url: this.URL
-    },
-      (err, response) => {
-        callback(err, response)
-      }
-    );
+    if (data) {
+      return createRequest({
+        data: data,
+        method: 'GET',
+        responseType: 'json',
+        url: this.URL
+      },
+        (err, response) => {
+          callback(err, response)
+        }
+      );
+    }
   }
 
   /**

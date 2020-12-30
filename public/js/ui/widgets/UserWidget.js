@@ -15,7 +15,6 @@ class UserWidget {
       throw new Error('Ошибка: переданный элемент не существует')
     }
     this.element = element;
-
   }
 
   /**

@@ -13,7 +13,6 @@ class AccountsWidget {
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
    * */
-
   constructor(element) {
     if (!element) {
       throw new Error('Ошибка: переданный элемент не существует')
@@ -32,16 +31,12 @@ class AccountsWidget {
    * */
 
   registerEvents() {
-    this.element.querySelector('.create-account').addEventListener('click', (e) => {
-      e.preventDefault();
-      App.getModal('createAccount').open();
-
-      this.element.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (e.target.closest('.account')) {
-          AccountsWidget.onSelectAccount(e.target.closest('.account'));
-        }
-      })
+    this.element.addEventListener('click', (e) => {
+      if (e.target.classList.contains('create-account')) {
+        App.getModal('createAccount').open();
+      } else if (e.target.parentElement.classList.contains('account')) {
+        this.onSelectAccount(e.target.parentElement);
+      }
     })
   }
 
@@ -55,23 +50,18 @@ class AccountsWidget {
    * Отображает список полученных счетов с помощью
    * метода renderItem()
    * */
-
   update() {
     if (User.current()) {
       Account.list(User.current(), (err, response) => {
         if (response) {
-          this.clear;
-          response.data.forEach(item => this.renderItem(item));
-        }
-        else {
+          this.clear();
+          this.renderItem(response.data);
+        } else {
           console.log(err);
         }
       })
     }
   }
-
-
-
   /**
    * Очищает список ранее отображённых счетов.
    * Для этого необходимо удалять все элементы .account
@@ -80,7 +70,7 @@ class AccountsWidget {
 
   clear() {
     let accounts = Array.from(this.element.querySelectorAll('.account'));
-    accounts.forEach((e) => e.remove());
+    accounts.forEach((e) => { e.remove() });
   }
 
   /**
@@ -92,8 +82,8 @@ class AccountsWidget {
    * */
 
   onSelectAccount(element) {
-    let activeAccounts = Array.from(element.parentElement.querySelectorAll('.active'));
-    activeAccounts.forEach((e) => e.classList.remove('active'));
+    let activeAccounts = element.parentElement.querySelectorAll('.active');
+    activeAccounts.forEach((e) => { e.classList.remove('active') });
     element.classList.add('active');
     App.showPage('transactions', { account_id: element.dataset.id });
   }
@@ -123,8 +113,9 @@ class AccountsWidget {
    * */
 
   renderItem(item) {
-    let accountHTML = this.getAccountHTML(item);
-    this.element.insertAdjacentHTML('beforeEnd', accountHTML);
+    item.forEach((e) => {
+      this.element.insertAdjacentHTML('beforeend', this.getAccountHTML(e));
+    });
   }
 }
 

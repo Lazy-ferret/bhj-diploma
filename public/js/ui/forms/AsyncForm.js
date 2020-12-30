@@ -33,8 +33,6 @@ class AsyncForm {
     })
   }
 
-
-
   /**
    * Преобразует данные формы в объект вида
    * {
@@ -53,9 +51,7 @@ class AsyncForm {
   }
 
   onSubmit(options) {
-
   }
-
 
   /**
    * Вызывает метод onSubmit и передаёт туда
